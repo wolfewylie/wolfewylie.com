@@ -1,0 +1,90 @@
+#bingoHolder { position: relative; float:left;}
+
+#bingoHolder table{
+    max-width: 625px;
+    float: center;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 99%;
+    font-weight:bold;
+    font-size: .8em;
+}
+
+#bingoHolder p { font-family:arial; font-size: .7em;}
+
+#bingoHolder table td, #bingoHolder table th{
+    border: 1px solid #ff0000;
+    overflow: hidden;
+}
+#bingoHolder .noBorder { border: 0px; }
+
+#bingoHolder td{
+    font-family:arial;
+    color:#0E21ED;
+    padding:5px;
+    height:100px;
+    width: 17%;
+    text-align:center;
+    background-color:#fff;
+}
+
+@media(max-width: 400px) {
+    #bingoHolder table {
+        font-size: 0.6em;
+    }
+    #bingoHolder td {
+        height: 75px;
+    }
+}
+
+#board{
+    vertical-align: top;
+    width: 4px;
+    height: 4px;
+    background-color: #ff0000;
+    padding: 0;
+    text-align: right;
+    border: 0;
+}
+
+#bingoHolder td{
+    cursor:pointer;
+}
+
+#free{
+    cursor:default;
+}
+
+#bingoHolder .active{
+    background: #ff0000;
+    color: white;
+    font-weight:bold;
+}
+
+#twitter{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    font-size: .7em;
+}
+
+#twitter-widget{
+    float: right;
+}
+
+#dialog-bingo p{
+    font-size: .7em;
+    text-align: center;
+}
+
+#bingoHolder a,#bingoHolder a:visited{
+    text-decoration:none;
+}
+
+#bingoHolder a:hover{
+    text-decoration: underline;
+}
+
+#new-card{
+    color:#000;
+}

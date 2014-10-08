@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="app.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <p class="label">What drugs cost around the world...</p>
+    <div id="map-canvas"></div>
+    <div class="drugs">
+      <figure>
+          <img src="weed.jpg" id="marijuana" class="drugselection" data-value="1KJRs_L8TCF6ZsZNsPGiuCynefI----f7P2GazM3o" onclick="changeMap('marijuana');">
+          <figcaption>Marijuana</figcaption>
+      </figure>
+      <figure>
+          <img src="coke.jpg" id="cocaine" class="drugselection" data-value="1bcYXnC4WAtIVmkF1wfNvhBp39U7DGWvYhmbSE5p2" onclick="changeMap('cocaine');">
+          <figcaption>Cocaine</figcaption>
+      </figure>
+      <figure>
+          <img src="heroin.jpg" id="heroin" class="drugselection" data-value="1ySjwkArQWwLufGzrPoDGN44y8pL_grVZs2y4XPHk" onclick="changeMap('heroin');">
+          <figcaption>Heroin</figcaption>
+      </figure>
+      <figure>
+          <img src="ex.jpg" id="ecstacy" class="drugselection" data-value="1VPlKrVs-Pea83L3dwJp0vTMT1dTCAj9NjFhVuNjh" onclick="changeMap('ecstacy');">
+          <figcaption>Ecstacy</figcaption>
+      </figure>
+      <figure>
+          <img src="meth.jpg" id="methamphetamine" class="drugselection" data-value="1_eH_jGCi05sO1ZixaFNSJiBYSYb7ngqK7tSomXtv" onclick="changeMap('methamphetamine');">
+          <figcaption>Methamphetamine</figcaption>
+      </figure>
+      <figure>
+          <img src="opium.jpg" id="opium" class="drugselection" data-value="1w4uE_eSdCaG378JqzOOtbu3JVnllJV0J1jZEqKIl" onclick="changeMap('opium');">
+          <figcaption>Opium</figcaption>
+      </figure>
+    </div>
+
+  <p>Note: You can download the full dataset <a href="https://docs.google.com/spreadsheets/d/1VAq54XFc93iJjHvmK8NfmUDQIQN0c3d6HwCaXNi4wPw/edit#gid=1085672009">here</a>. </p>
+  </body>
+</html>

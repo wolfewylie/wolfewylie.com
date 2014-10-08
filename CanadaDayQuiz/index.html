@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="A fabulous Canada.com Quiz!">
+	<title>I'm Canadian...sorry</title>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="jquery.min.js"></script>
+	<script src="application.js" type="text/javascript"></script>
+	
+</head>
+
+<body>
+	<script>
+	   window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '505801336220403',
+      status     : true,
+      cookie	 : true,
+      xfbml      : true
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+    <div id="fb-root"></div>
+
+    <img class="logo" src="http://s2.wp.com/wp-content/themes/vip/postmedia-canadadotcom2/images/logo-large.png">
+	<div>	
+
+			<h2 class="sorry">I'm super sorry, eh?</h2>
+
+		<div id="question"></div>
+		<div id="questionpic"></div>
+
+		<div id="finalMessage" class="finalmessage">
+		</div>
+
+		<div>
+			<ul>
+			</ul>
+
+	<form>
+		<div id="choices">
+		</div>
+
+		<button id="submitButton" class="submitButton">Submit</button>
+	</form>
+		<button id="beginButton" class="beginButton">How sorry are you?</button>
+		<button id="continueButton" class="continueButton">Continue</button>
+		<div id="TwitterButton">
+		</div>
+		<button id="retryButton" class="retryButton">Start over</button>
+
+	</div>
+	<div id="questionNumber">
+	</div>
+</div>
+</body>
+</html>

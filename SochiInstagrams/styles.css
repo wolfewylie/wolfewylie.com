@@ -4,13 +4,13 @@
   margin: 0px;
   padding: 0px;
 }
-html, body {
-  height: 800px;
+body {
+  height: 300px;
   font-family: "Source Sans Pro", "Helvetica", "Georgia", serif;
 	font-weight: 400;
   font-size: 16px;
   overflow: hidden;
-  min-width:868px;
+  max-width:500px;
 }
 
 p, ul, ol {
@@ -36,7 +36,7 @@ img {border:0;}
 
 #logo .title {color:#999; font-size:12px;}
 
-#container {margin:0 auto; padding-top:20px; width:800px;}
+#container {margin:0 auto; padding-top:20px; max-width:500px;}
 
 #content {border-bottom:1px dotted #999; border-top:1px dotted #999; padding:20px 0;}
 
@@ -67,7 +67,7 @@ a:hover {
 
 #header {
   font-size: 12px;
-  width: 868px;
+  width: 500px;
   /*line-height: 1.5em;*/
   background-color: rgb(92, 131, 160);
   border-bottom: 1px solid black;
@@ -192,30 +192,30 @@ a:hover {
   position: absolute;
   background-color: #eee;
   opacity: 0.85; 
-  top: 700px;
-  left: 10px;
-  width: 325px;
-  height: 150px;
+  top: 85px;
+  left: 275px;
+  width: 225px;
+  height: 75px;
 }
 
 #canadacomlogo {
   float: left;
   width: 200px;
-  padding-top: 300px;
-  padding-left: 350px;
+  padding-top: 200px;
+  padding-left: 150px;
 
 }
 #overlay {
   float: left;
   padding-top: 72px;
-  width: 868px;
-  height: 868px;
+  max-width: 500px;
+  height: 500px;
   z-index: 10;
 }
 #curtain {
   position: fixed;
-  width: 868px;
-  height: 868px;
+  width: 500px;
+  height: 500px;
   background-color: #111;
 
 }
@@ -223,7 +223,7 @@ a:hover {
 #error-div {
   display: none;
   position: absolute;
-  width: 868px;
+  width: 500px;
   height: auto;
   top: 45%;
   z-index: 15;
@@ -267,8 +267,8 @@ a:hover {
   font-size: 15px;
   text-align: center;
   position: absolute;
-  top: 870px;
-  width: 868px;
+  top: 500px;
+  width: 500px;
   int-padding-right: 10px;
   int-padding-left: 10px;
 	padding-bottom: 10px;

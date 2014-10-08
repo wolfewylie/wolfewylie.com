@@ -1,0 +1,107 @@
+body {
+	max-width: 630px;
+	width: 100%;
+}
+
+#map-canvas { 
+	max-width:630px; 
+	width: 82.5%;
+	height:470px; 
+	float: left;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.drugs {
+	width: 105px;
+	float: left;
+	margin-top: 5px;
+}
+
+figure {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0 5px;
+	margin-bottom: 8%;
+}
+
+figure img {
+	width: 100%;
+	margin-bottom: 7.5%;
+	display: block;
+}
+
+figcaption {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: -2px;
+}
+
+p {
+	font-size: 12px;
+	color: black;
+	max-width: 600px;
+	clear: both;
+}
+
+.label {
+	display: inline-block;
+	margin: auto;
+	width: 100%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: white;
+	background-color: #BEBAFF;
+}
+
+@media(max-width: 625px) {
+	#map-canvas {
+		width: 75%;
+
+	}
+}
+
+@media(max-width: 480px) {
+	#map-canvas {
+		width: 98%;
+		display: block;
+	}
+	.label {
+		width: 98%;
+		font-size: 15px;
+	}
+	.drugs {
+		width: 100%;
+		margin: 0 auto;
+	}
+	figure {
+		display: inline-block;
+		width: 25%;
+		margin: 6px;
+	}
+	figure img {
+		width: 100%;
+		display: inline-block;
+	}
+
+}
+
+@media(max-width: 320px) {
+	figure {
+		width: 40%;
+	}
+	#map-canvas {
+		width: 95%;
+	}
+	.label {
+		width: 90%;
+	}
+}
